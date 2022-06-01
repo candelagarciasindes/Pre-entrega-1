@@ -1,0 +1,89 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75,708;100,400&display=swap');  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75,708;0,100,400;1,100,400&display=swap');
+
+body {
+
+    font-family: 'Open Sans';
+    
+}
+
+/* TITULO */
+
+h1 {
+color: black;
+font-variation-settings:'wdth' 100 , 'wght' 400;
+font-size: 4em;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-variation-settings:'wdth' 100 , 'wght' 600;
+    font-style: italic;
+    font-size: 2.5em;
+    }
+
+/* PARRAFO */
+
+p {
+    color: black;
+    font-variation-settings:'wdth' 100 , 'wght' 350;
+    font-size: 0.8em;
+}
+
+
+/* BOTONES */
+
+b {
+    color:rgba(37, 151, 212, 0.811);
+    font-variation-settings:'wdth' 90 , 'wght' 500;
+    text-decoration:none;
+    font-size: 1em;
+    }
+
+a {
+color: black;
+font-variation-settings:'wdth' 90 , 'wght' 500;
+text-decoration:none;
+font-size: 1em;
+}
+
+
+/* BOTONES MOUSE */
+
+a:hover {
+
+background-color:rgba(37, 151, 212, 0.811);
+color:white;
+
+}
+
+/* individualización de "behance" (no es necesaria en este caso) */
+
+/* #vinculo {
+    color: black;
+}
+
+
+#vinculo:hover {
+
+    background-color:rgba(37, 151, 212, 0.811);
+    color:white;
+
+} */
+
+
+/* CABA */
+
+#parrafo {
+    font-variation-settings:'wdth' 100 , 'wght' 400;
+    text-transform: uppercase;
+    /*transforma el texto en mayúscula*/
+    font-size: 0.74em;
+  
+}
+
+/* se puede utilizar una sóla vez por html*/
+
+@media (max-width: px) {
+    body { font-size: 50%;}
+}
